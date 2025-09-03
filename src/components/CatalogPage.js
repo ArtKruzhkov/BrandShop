@@ -68,7 +68,7 @@ function CatalogPage() {
         <div className="head center">
           <h1 className="head_title">NEW ARRIVALS</h1>
           <nav className="breadcrums">
-            <a href="/" className="breadcrums__link">
+            <a href="#/" className="breadcrums__link">
               HOME
             </a>
             <a href="#" className="breadcrums__link">
