@@ -98,7 +98,7 @@ const products = [
     price: 52.0,
     size: "XS",
     color: "Red",
-    imageUrl: "/img/prod10.png",
+    imageUrl: "img/prod10.png",
   },
   {
     id: 11,
