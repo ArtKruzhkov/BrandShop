@@ -18,7 +18,7 @@
     "sass-loader": "^14.1.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://ArtKruzhkov.github.io/BrandShop",
+  "homepage": "https://artkruzhkov.github.io/BrandShop",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
