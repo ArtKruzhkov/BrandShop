@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-
+// import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import ProductItem from "./ProductItem";
@@ -17,6 +17,11 @@ function pagination(array, pageSize, pageNumber) {
 }
 
 function CatalogPage() {
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, []);
+
   // Состояние для хранения текущей страницы
   const [currentPage, setCurrentPage] = useState(1);
 
